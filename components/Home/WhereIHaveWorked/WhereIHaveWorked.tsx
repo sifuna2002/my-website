@@ -14,11 +14,11 @@ export default function WhereIHaveWorked() {
   // ? INFORMATIONAL the default value of barRef's class should be at the beginning translate-y-[0px]
   const GetDescription = () => {
     switch (DescriptionJob) {
-      case "ENSVision":
+      case "Black Box":
         return <EnsVision />;
-      case "TrouveTavoie":
+      case "Alvicreative":
         return <TrouveTavoie />;
-      case "FeverTokens":
+      case "Macangira":
         return <FeverTokens />;
       case "IdealFresh":
         return <IdealFresh />;
@@ -118,32 +118,32 @@ const CompaniesBar = props => {
         <div className="flex flex-row md:flex-col">
         <CompanyButton
             ButtonOrderOfcompanyNameBackgroundColorGreen={0}
-            CompanyName="ENS Vision"
+            CompanyName="Black Box"
             BarPosition={-12}
             BarAvobePosition={1}
-            DescriptionJob="ENSVision"
+            DescriptionJob="Black Box"
             CompanyNameBackgroundColorGreen={[true,false, false, false, false, false]}
             setDescriptionJob={props.setDescriptionJob}
           />
           <CompanyButton
             ButtonOrderOfcompanyNameBackgroundColorGreen={1}
-            CompanyName="TrouveTavoie"
+            CompanyName="Alvicreative"
             BarPosition={32}
             BarAvobePosition={129}
-            DescriptionJob="TrouveTavoie"
+            DescriptionJob="Alvicreative"
             CompanyNameBackgroundColorGreen={[false,true, false, false, false, false]}
             setDescriptionJob={props.setDescriptionJob}
           />
           <CompanyButton
             ButtonOrderOfcompanyNameBackgroundColorGreen={2}
-            CompanyName="FeverTokens"
+            CompanyName="Macangira"
             BarPosition={76}
             BarAvobePosition={257}
-            DescriptionJob="FeverTokens"
+            DescriptionJob="Macangira"
             CompanyNameBackgroundColorGreen={[false,false, true, false, false, false]}
             setDescriptionJob={props.setDescriptionJob}
           />
-          <CompanyButton
+          {/* <CompanyButton
             ButtonOrderOfcompanyNameBackgroundColorGreen={3}
             CompanyName="IdealFresh"
             BarPosition={120}
@@ -178,7 +178,7 @@ const CompaniesBar = props => {
             DescriptionJob="Fantasia"
             CompanyNameBackgroundColorGreen={[false, false, false, false, false, false, true]}
             setDescriptionJob={props.setDescriptionJob}
-          />
+          /> */}
         </div>
         <div className="block md:hidden h-0.5 rounded bg-gray-500">
           <motion.div animate={{ x: barAbovePosition }} className="w-[128px] h-0.5 rounded bg-AAsecondary"></motion.div>
