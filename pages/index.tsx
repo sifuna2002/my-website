@@ -56,8 +56,8 @@ export default function Home() {
 
   console.log("Portfolio Rendered...");
   const meta = {
-    title: "Abdellatif Anaflous - Software Engineer",
-    description: `I've been working on Software development for 5 years straight. Get in touch with me to know more.`,
+    title: "Sifuna Donnex - Software Engineer",
+    description: `I'm a Software engineer and Graphic DEsigner. Get in touch with me to know more.`,
     image: "/titofCercle.png",
     type: "website",
   };
@@ -72,12 +72,12 @@ export default function Home() {
         <meta property="og:url" content={`https://anaflous.com`} />
         <link rel="canonical" href={`https://anaflous.com`} />
         <meta property="og:type" content={meta.type} />
-        <meta property="og:site_name" content="Manu Arora" />
+        <meta property="og:site_name" content="Sifuna Portfolio" />
         <meta property="og:description" content={meta.description} />
         <meta property="og:title" content={meta.title} />
         <meta property="og:image" content={meta.image} />
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:site" content="@titofabdo" />
+        <meta name="twitter:site" content="@sifunado" />
         <meta name="twitter:title" content={meta.title} />
         <meta name="twitter:description" content={meta.description} />
         <meta name="twitter:image" content={meta.image} />
@@ -93,7 +93,7 @@ export default function Home() {
         {context.sharedState.finishedLoading ? <SomethingIveBuilt /> : <></>}
         {context.sharedState.finishedLoading ? <GetInTouch /> : <></>}
         {context.sharedState.finishedLoading ? (
-          <Footer githubUrl={"https://github.com/hktitof/my-website"} hideSocialsInDesktop={true} />
+          <Footer githubUrl={"https://github.com/sifuna2002/my-website"} hideSocialsInDesktop={true} />
         ) : (
           <></>
         )}
