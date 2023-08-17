@@ -38,9 +38,9 @@ export default function MyName(props: { finishedLoading: boolean }) {
           opacity: { delay: props.finishedLoading ? 0 : 10.6, duration: props.finishedLoading ? 0 : 0.2 },
           y: { delay: props.finishedLoading ? 0 : 10.6, duration: props.finishedLoading ? 0 : 0.2 },
         }}
-        className="text-gray-400 font-bold text-3xl lg:text-7xl sm:text-5xl md:text-6xl mt-4"
+        className="text-gray-400 font-bold text-3xl lg:text-5xl sm:text-4xl md:text-5xl mt-4"
       >
-        I make ideas & things alive.
+        I make ideas & Designs come to life.
       </motion.h2>
 
       <motion.h3
