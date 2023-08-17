@@ -5,6 +5,7 @@ import ArrowIcon from "../../Icons/ArrowIcon";
 import Img from "../../smallComp/image/Img";
 import GithubIcon from "../../Icons/GithubIconForSomethingIveBuild";
 import ExternalLink from "../../Icons/ExternalLink";
+import Image from "../ImageViewer/Image";
 
 export default function SomethingIveBuilt() {
   const router = useRouter();
@@ -581,6 +582,11 @@ export default function SomethingIveBuilt() {
               </div>
             </div>
           </div>
+        </div>
+        {/* images gallery for graphic designs */}
+        <div className="graphic">
+          <h1 className="text-3xl mb-3 font-bold text-AAsecondary">Graphic Designs</h1>
+          <Image />
         </div>
       </div>
     </div>
