@@ -299,10 +299,10 @@ export default function SomethingIveBuilt() {
                text-sm font-Text2 md:justify-start"
               >
                 <span className="pr-4 z-10">Cookies</span>
-                <span className="pr-4 z-10">Google APi</span>
-                <span className="pr-4 z-10">Data collecting</span>
-                <span className="pr-4 z-10">IP Address</span>
-                <span className="pr-4 z-10">Location</span>
+                <span className="pr-4 z-10">Netflix</span>
+                <span className="pr-4 z-10">Series</span>
+                <span className="pr-4 z-10">Firebase</span>
+                <span className="pr-4 z-10">Movies</span>
               </ul>
               <div className="z-10 flex fle-row space-x-5 ">
                 <GithubIcon link="https://github.com/sifuna2002/netflix-next" />
