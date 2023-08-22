@@ -3,8 +3,8 @@ import Img from "../../../components/smallComp/image/Img";
 import ArrowIcon from "../../../components/Icons/ArrowIcon";
 export default function AboutMe(props) {
   const technologies = [
-    ["Next.js", "JavaScript (ES6+)", "Tailwind CSS", "Angular.js", "MongoDB"],
-    ["Node.js", "TypeScript", "Framer Motion", "React.js", "Python"],
+    ["Next.js", "JavaScript (ES6+)", "Tailwind CSS", "Angular.js", "MongoDB", "Express.js", "Firebase"],
+    ["Node.js", "TypeScript", "Framer Motion", "React.js", "React Native", "Python", "Flask"],
   ];
   return (
     <div id="aboutSection" data-aos="fade-up" className="snap-start flex flex-col  items-center py-20 bg-AAprimary">

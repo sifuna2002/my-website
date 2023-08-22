@@ -31,7 +31,7 @@ export default function Image() {
   };
 
   return (
-    <div className="flex gap-3 items-center justify-center flex-col md:flex-row flex-wrap">
+    <div className="flex gap-3 items-center justify-center flex-col md:flex-row flex-wrap cursor-pointer">
       {images.map((src, index) => (
         <img
           src={src}
